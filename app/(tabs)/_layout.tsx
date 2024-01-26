@@ -6,6 +6,7 @@ import { Pressable } from 'react-native';
 import Colors from '@/constants/Colors';
 import { useColorScheme } from '@/components/useColorScheme';
 import { useClientOnlyValue } from '@/components/useClientOnlyValue';
+import { useReactNavigationDevTools } from "@dev-plugins/react-navigation"
 
 function TabBarIcon(props: {
   name: React.ComponentProps<typeof FontAwesome>['name'];
